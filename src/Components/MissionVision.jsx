@@ -121,7 +121,7 @@ function MissionVision() {
                 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'}
                 hover:scale-110 hover:shadow-lg w-11/12 md:w-12/12 mx-auto`}
             >
-              <h1 className="w-45 h-20 mb-3 mx-auto text-center font-bold text-green-400" style={{fontSize:'40px'}}>
+              <h1 className="w-45 h-20 mb-3 mx-auto text-center font-bold text-green-400" style={{fontSize:'38px'}}>
                 CORE VALUES
               </h1>
               <p className="text-gray-700 text-[10px] md:text-xs lg:text-sm">

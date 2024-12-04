@@ -46,7 +46,7 @@ const HeroSection = () => {
       </div>
 
       {/* Content Container */}
-      <div className="relative h-full w-full flex flex-col md:flex-row items-center justify-between px-4 sm:px-8 md:px-16 py-8 md:py-0 ">
+      <div className="relative h-full w-full flex flex-col md:flex-row items-center justify-between px-4 sm:px-8 md:px-16  md:py-0 ">
         {/* Left Content */}
         <div className="flex-1 mt-8 md:mt-0 z-10 ">
           <div className="flex items-start ">
@@ -81,14 +81,14 @@ const HeroSection = () => {
 
         {/* Person Image with floating animation */}
         <div 
-  className={`w-full md:w-1/3 h-[400px] md:h-full flex flex-col justify-end items-center xs:mt-[100px]
+  className={`w-full md:w-1/3 h-[400px] md:h-full flex flex-col justify-end items-center 
     ${isVisible ? 'animate-[fadeIn_1.2s_ease-out_0.8s_forwards]' : 'opacity-0'}`}
 >
   <img 
   
     src={personImage}
     alt="Ansar Muhammed"
-    className="w-3/4 md:w-full h-auto object-contain  md:scale-110 md:-ml-24 xs:mt-[10px]"
+    className="w-3/4 md:w-full h-auto object-contain  md:scale-110 md:-ml-24 "
   />
 </div>
 
