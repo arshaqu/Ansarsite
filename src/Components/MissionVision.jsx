@@ -56,26 +56,22 @@ function MissionVision() {
             isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'
           }`}>
             <img 
+            style={{width:'620px'}}
               src={whychoose} 
-              className={`transition-all duration-700 ${
+              className={`transition-all duration-700 lg:ml-[100px] ${
                 isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
               }`} 
               alt='choose'
             />
   
-            <div className={`text-white text-4xl lg:text-5xl text-center font-bold mb-4 transition-all duration-700 ${
-              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-            }`}>
-              UNSTOPPABLE <br />
-              RESILIENCE
-            </div>
+        
           </div>
   
           {/* Right Side - Cards */}
           <div className="w-full lg:w-1/2 space-y-4 montserratmv cursor-pointer">
             {/* Vision Card */}
             <div 
-              style={{borderRadius:'4px'}} 
+              style={{borderRadius:'30px', background: 'linear-gradient(to right, #272F3F, #0F3528)'}} 
               className={`bg-white/95 backdrop-blur-sm p-4 md:p-6 transform transition-all duration-700 
                 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'}
                 hover:scale-110 hover:shadow-lg w-11/12 md:w-12/12 mx-auto`}
@@ -83,7 +79,7 @@ function MissionVision() {
               <h1 className="w-45 h-20 mb-3 mx-auto text-center font-bold text-green-400" style={{fontSize:'40px'}}>
                 VISION
               </h1>
-              <p className="text-gray-700 text-[10px] md:text-xs lg:text-sm">
+              <p style={{color:'white'}} className="text-gray-700 text-[10px] md:text-xs lg:text-sm">
                 To be a guiding beacon and role model for oppressed and
                 underprivileged individuals worldwide, fostering a community driven
                 by purpose, acceptance, and respect. By promoting liberation and unity,
@@ -96,7 +92,7 @@ function MissionVision() {
   
             {/* Mission Card */}
             <div 
-              style={{borderRadius:'4px'}} 
+              style={{borderRadius:'30px', background: 'linear-gradient(to right, #272F3F, #0F3528)'}} 
               className={`bg-white/95 backdrop-blur-sm p-4 md:p-6 transform transition-all duration-700 delay-100
                 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'}
                 hover:scale-110 hover:shadow-lg w-11/12 md:w-12/12 mx-auto`}
@@ -104,7 +100,7 @@ function MissionVision() {
               <h1 className="w-45 h-20 mb-3 mx-auto text-center font-bold text-green-400" style={{fontSize:'40px'}}>
                 MISSION
               </h1>
-              <p className="text-gray-700 text-[10px] md:text-xs lg:text-sm">
+              <p style={{color:'white'}} className="text-gray-700 text-[10px] md:text-xs lg:text-sm">
                 Our mission is to transform lives by easing hardships and empowering
                 individuals and organizations to achieve financial success and
                 personal fulfillment. We do this through dedicated self-growth,
@@ -116,7 +112,7 @@ function MissionVision() {
   
             {/* Core Values Card */}
             <div 
-              style={{borderRadius:'4px'}} 
+              style={{borderRadius:'30px', background: 'linear-gradient(to right, #272F3F, #0F3528)'}} 
               className={`bg-white/95 backdrop-blur-sm p-4 md:p-6 transform transition-all duration-700 delay-200
                 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'}
                 hover:scale-110 hover:shadow-lg w-11/12 md:w-12/12 mx-auto`}
@@ -124,7 +120,7 @@ function MissionVision() {
               <h1 className="w-45 h-20 mb-3 mx-auto text-center font-bold text-green-400" style={{fontSize:'38px'}}>
                 CORE VALUES
               </h1>
-              <p className="text-gray-700 text-[10px] md:text-xs lg:text-sm">
+              <p style={{color:'white'}} className="text-gray-700 text-[10px] md:text-xs lg:text-sm " >
                 Empowerment through resources and opportunities helps individuals
                 facing adversity succeed, focusing on communication and sales skills
                 for growth. Resilience emphasizes overcoming obstacles with determination,

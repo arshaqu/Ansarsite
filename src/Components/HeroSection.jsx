@@ -52,28 +52,34 @@ const HeroSection = () => {
           <div className="flex items-start ">
             {/* Animated Green Line with glow effect */}
             <div 
-              className={`w-3 bg-green-500 ml-2 shadow-[0_0_15px_rgba(34,197,94,0.2)] transition-all duration-1000 ease-out  ${
-                isVisible ? 'h-32 md:h-64' : 'h-0'
+              className={`w-3 bg-green-500 ml-2 shadow-[0_0_15px_rgba(34,197,94,0.2)] transition-all duration-1000 ease-out lg:ml-[100px] lg:h-[295px] lg:mt-[8px] ${
+                isVisible ? 'h-32 md:h-58' : 'h-0'
+
               }`}
             />
 
             {/* Text Content */}
-            <div className="space-y-2 ml-6 md:ml-20 ">
+            <div className="space-y-2 ml-6 md:ml-20 lg:-ml-0 ">
               <h2 
-                className={`text-white text-2xl sm:text-3xl md:text-5xl font-bold whitespace-nowrap 
+                className={`text-white text-2xl sm:text-3xl md:text-5xl font-bold whitespace-nowrap  lg:ml-[20px]
                   ${isVisible ? 'animate-[slideFromRight_0.8s_ease-out_forwards]' : 'opacity-0'}`}
               >
                 Empowered by
               </h2>
               <div className="overflow-hidden">
-                <h1 
-                  className={`text-white text-4xl sm:text-5xl md:text-8xl font-bold leading-tight
-                    ${isVisible ? 'animate-[clipReveal_1s_ease-out_0.3s_forwards]' : 'opacity-0'}`}
-                >
-                  <span className="hover:text-green-400 transition-colors duration-300 cursor-pointer">Ansar</span>
-                  <br />
-                  <span className="hover:text-green-400 transition-colors duration-300 cursor-pointer">Muhammed</span>
-                </h1>
+              <h1 
+  className={`text-white text-4xl sm:text-5xl md:text-8xl lg:text-9xl font-bold leading-tight
+    ${isVisible ? 'animate-[clipReveal_1s_ease-out_0.3s_forwards]' : 'opacity-0'}`}
+>
+  <span className="hover:text-green-400 transition-colors duration-300 cursor-pointer lg:ml-[20px]">
+    Ansar
+  </span>
+  <br />
+  <span className="hover:text-green-400 transition-colors duration-300 cursor-pointer lg:ml-[20px]">
+    Muhammed
+  </span>
+</h1>
+
               </div>
             </div>
           </div>
@@ -88,7 +94,7 @@ const HeroSection = () => {
   
     src={personImage}
     alt="Ansar Muhammed"
-    className="w-3/4 md:w-full h-auto object-contain  md:scale-110 md:-ml-24 "
+    className=" w-3/4 md:w-full h-auto object-contain  md:scale-110 md:-ml-24"
   />
 </div>
 

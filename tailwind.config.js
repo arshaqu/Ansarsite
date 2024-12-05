@@ -9,6 +9,9 @@ module.exports = {
       screens: {
         'xs': '480px', // Add xs breakpoint for screens smaller than 640px
       },
+      height: {
+        58: '14.5rem', // Add your custom height
+      },
       keyframes: {
         particle1: {
           '0%': { transform: 'translate(0, 0)' },

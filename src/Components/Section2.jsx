@@ -31,8 +31,8 @@ function Section2() {
 
   // CSS classes for animations with conditional visibility
   const imageClasses = `
-    rounded-lg w-full max-w-96 h-auto object-cover
-    transition-all duration-1000
+    rounded-lg w-full max-w-96 h-auto object-cover 
+    transition-all duration-1000 mt-5  lg:ml-[20px]
     ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}
   `;
 
@@ -48,20 +48,20 @@ function Section2() {
   `;
 
   const lineClasses = `
-    w-1 h-24 bg-emerald-400
+    w-1 h-24 bg-emerald-400 lg:ml-[20px]
     transition-all duration-800
     ${isVisible ? 'animate-[clipReveal_0.8s_ease-out_forwards]' : 'opacity-0 scale-y-0'}
   `;
 
   const titleClasses = `
     text-3xl sm:text-5xl md:text-5xl text-white font-semibold montserrat
-    transition-all duration-1000 delay-300
+    transition-all duration-1000 delay-300 
     ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}
   `;
 
   const paragraphClasses = `
     text-lg sm:text-xl md:text-2xl text-gray-300 leading-relaxed font-thin montserrat
-    sm:mt-8 md:mt-12
+    sm:mt-8 md:mt-12 lg:ml-[20px]
     transition-all duration-1000 delay-600
     ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}
   `;
@@ -82,6 +82,7 @@ function Section2() {
           {/* Left side - Image */}
           <div className={floatContainer}>
             <img 
+            
               src={ansar01}
               alt="Profile"
               className={imageClasses}
