@@ -32,7 +32,7 @@ function Section2() {
   // CSS classes for animations with conditional visibility
   const imageClasses = `
     rounded-lg w-full max-w-96 h-auto object-cover 
-    transition-all duration-1000 mt-5  lg:ml-[20px]
+    transition-all duration-1000 mt-5  lg:ml-[20px] lg:w-[1800px] lg:h-[550px]
     ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}
   `;
 
@@ -48,13 +48,13 @@ function Section2() {
   `;
 
   const lineClasses = `
-    w-1 h-24 bg-emerald-400 lg:ml-[20px]
+    w-1 h-24 bg-emerald-400 lg:ml-[20px] 
     transition-all duration-800
     ${isVisible ? 'animate-[clipReveal_0.8s_ease-out_forwards]' : 'opacity-0 scale-y-0'}
   `;
 
   const titleClasses = `
-    text-3xl sm:text-5xl md:text-5xl text-white font-semibold montserrat
+     text-5xl sm:text-5xl md:text-5xl text-white font-semibold montserrat
     transition-all duration-1000 delay-300 
     ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}
   `;
